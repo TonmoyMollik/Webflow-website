@@ -61,3 +61,50 @@ body {
   transform: scale(1.2);
   transition: transform 0.3s ease;
 }
+/* action section */
+.action-section {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  padding: 100px 0px;
+}
+.col-1 {
+  width: 50%;
+  align-content: center;
+}
+.col-2 {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  padding: 0px;
+}
+
+.action h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.action p {
+  font-size: 24px;
+  color: #252432;
+  margin-top: 20px;
+}
+.action button {
+  font-size: 20px;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  margin-top: 20px;
+  background-color: #4e47ff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.action button:hover {
+  background: linear-gradient(to right, #6461be, #4e47ff);
+  color: rgb(20, 7, 7);
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+.col-2 img {
+  border-radius: 15px;
+  width: 100%;
+}
