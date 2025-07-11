@@ -135,3 +135,52 @@ body {
   font-size: 20px;
   color: #0000007b;
 }
+/* feedback section */
+.feedback-section {
+  max-width: 1140px;
+  margin: auto;
+  margin: 200px auto;
+}
+.feedback-item {
+  padding: 24px;
+  background-color: #fafcff;
+  border-radius: 10px;
+}
+.feedback-item:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+.feedback {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.feedback-section h3 {
+  font-size: 38px;
+  font-weight: bold;
+  padding: 0px 0px 50px 0px;
+  text-align: center;
+}
+.feedback-section .reviewer {
+  display: flex;
+  padding: 0px 0px;
+}
+.feedback-section .avatar {
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.feedback h4 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 12px 0px 6px 0px;
+}
+.feedback .para {
+  padding: 12px 0px;
+  font-weight: bold;
+  color: #04040b83;
+  font-size: 18px;
+}
+.feedback p {
+  color: #04040b83;
+}
