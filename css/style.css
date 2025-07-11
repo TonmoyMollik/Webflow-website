@@ -108,3 +108,30 @@ body {
   border-radius: 15px;
   width: 100%;
 }
+/* productive section */
+.Productive-Section {
+  text-align: center;
+  background-color: #e5e7ff;
+  max-width: 1140px;
+  margin: 200px auto;
+  border-radius: 24px;
+}
+.Productive-Section h3 {
+  font-size: 38px;
+  font-weight: bold;
+  padding: 50px 0px 0px 0px;
+}
+.productive {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px 50px;
+}
+.product .user {
+  font-size: 80px;
+  color: #4e47ff;
+  font-weight: bold;
+}
+.product .active {
+  font-size: 20px;
+  color: #0000007b;
+}
