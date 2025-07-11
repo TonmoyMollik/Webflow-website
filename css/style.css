@@ -229,3 +229,99 @@ body {
   text-align: center;
   padding: 20px 0px;
 }
+/* contact-section */
+.contact-section {
+  max-width: 1140px;
+  margin: auto;
+  padding: 100px 0px;
+  text-align: center;
+}
+.contact {
+  display: flex;
+  text-align: left;
+}
+.contact-section .contact h3 {
+  font-size: 97px;
+  font-weight: bold;
+}
+.col-3 {
+  width: 50%;
+  align-content: center;
+}
+.col-4 {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+.col-4 label {
+  font-size: 18px;
+  font-weight: bold;
+}
+.col-4 input {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 32px;
+  width: 497px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.col-4 textarea {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 32px;
+  width: 497px;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.col-4 button {
+  padding: 15px 30px;
+  width: 497px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4e47ff;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.col-4 button:hover {
+  background: linear-gradient(to right, #6461be, #4e47ff);
+  color: rgb(20, 7, 7);
+  transition: transform 0.3s ease;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  gap: 5px;
+}
+
+/* footer section */
+.footer {
+  text-align: center;
+  margin: auto;
+  padding: 100px 0px;
+  background-color: white;
+}
+.footer p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #04040b83;
+  padding: 20px 0px 0px 0px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #04040b83;
+  font-size: 20px;
+  font-weight: ;
+}
+.footer-logo img {
+  width: 300px;
+}
