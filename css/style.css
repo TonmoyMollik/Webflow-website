@@ -184,3 +184,48 @@ body {
 .feedback p {
   color: #04040b83;
 }
+
+/* ready-section */
+.ready-section {
+  max-width: 1140px;
+  margin: auto;
+  padding: 100px 0px;
+  border-radius: 15px;
+  background-color: white;
+}
+.ready-section h2 {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0px;
+}
+.ready-section p {
+  font-size: 24px;
+  color: #252432;
+  text-align: center;
+  padding: 20px 0px;
+}
+.ready-section button {
+  display: block;
+  margin: auto;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4e47ff;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ready-section button:hover {
+  background: linear-gradient(to right, #6461be, #4e47ff);
+  color: rgb(20, 7, 7);
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+.ready-section .img-section img {
+  border-radius: 15px;
+}
+.ready-section .img-section {
+  text-align: center;
+  padding: 20px 0px;
+}
